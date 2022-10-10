@@ -26,11 +26,12 @@ main{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
     height: 20%;
-    text-shadow: 3px 2px  rgb(143, 144, 146);
+    text-shadow: 2px 2px 3px rgb(30, 33, 36);
     height: 20%;
     margin-bottom: 20%;
 
 }
+
 .card{
     background-color:rgb(30, 33, 36);
     color: whitesmoke;
