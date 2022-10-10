@@ -1,0 +1,41 @@
+body{
+    background-image: url(./business-people-meeting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+a:link{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+a:hover, a:active {
+    background-color:  rgb(143, 144, 146);
+    border-radius: 3px;
+  }
+main{
+    margin: 15px;
+}
+.blank{
+    height: 100px;
+}
+.header{
+    color: whitesmoke;
+    padding: 30px;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    height: 20%;
+    text-shadow: 3px 2px  rgb(143, 144, 146);
+    height: 20%;
+    margin-bottom: 20%;
+
+}
+.card{
+    background-color:rgb(30, 33, 36);
+    color: whitesmoke;
+    box-shadow: 1px 1px 5px whitesmoke;
+    opacity: .9;
+    margin: 10px;
+    
+}
