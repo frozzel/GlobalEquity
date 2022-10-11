@@ -1,14 +1,43 @@
+const { reject} = require("assert");
 const fs = require( "fs" );
 const inquirer = require( "inquirer" );
+const { captureRejectionSymbol } = require("stream");
+const { resolve } = require("path");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
-
+const linkHtml= require('./lib/writehtml')
 
 
 
 ////// Array to hold employees/////
 let devProArr = [];
+
+///////// write to html /////////////
+
+const writeToFile = (linkHtmlarr)=> {
+    return new Promise((resolve, reject) => {
+        saveFile= devProArr[0].toLowerCase();
+        saveFile= saveFile.replace( / /g, "-");
+
+        fs.writeFile( `.dist/${saveFile}.html`, linkHtmlarr.join("", function( err ){
+            if (err)throw (err) 
+            //     reject(err);
+            //     console.log(err)
+            //     return;
+            // };
+            resolve({
+                ok: true,
+                message: "Your new development team is saved in the dist folder!"
+            })
+        }))
+    })
+}
+
+function genHtmlFile(){
+    const linkHtmlarr= linkHtml.genHtml(devProArr);
+    writeToFile(linkHtmlarr)
+}
 
 //// Intern Call ????///////
 
