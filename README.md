@@ -4,7 +4,9 @@
   Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
   -Learn testing with TDD and gain more Node JS skills.
+  
   -The Profile builder creates a Web page based on user input of thier projects team.
+  
   -Quickly generate Development teams basic information.
 
   
