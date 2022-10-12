@@ -23,6 +23,7 @@
   ## Usage
   [Vist Our Site](http://frozzel.github.io/GlobalEquity/)
   
+  [Video](https://youtu.be/9YzzNMa68jI)
   
 ![Screen Shots](./scr/Shot.png)
 ![Screen Shots2](./scr/Shot2.png)
