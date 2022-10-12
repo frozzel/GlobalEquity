@@ -1,19 +1,19 @@
 {
   "name": "globalequity",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create Profiles in command line",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frozzel/GlobalEquity.git"
   },
-  "author": "",
+  "author": "Dennis Hickox",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/frozzel/GlobalEquity/issues"
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/frozzel/GlobalEquity#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
-    "jest": "^24.9.0"
+    "jest": "^26.6.3"
   }
 }
