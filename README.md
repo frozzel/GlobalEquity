@@ -35,6 +35,10 @@
   [BootStrap](https://getbootstrap.com/docs/5.2/layout/grid/)
 
   [Jest](https://archive.jestjs.io/docs/en/24.x/expect)
+
+  [Freepik](https://www.freepik.com/free-vector/business-people-in-meeting_2770453.htm)
+
+  [Logo](https://logo.com)
   
   
   ## License
