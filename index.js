@@ -95,7 +95,7 @@ function addIntPro(){
         const devTeamMem = new Intern( intName, intId, intEmail, intSchool);
 
         devProArr.push( devTeamMem);
-        console.log(devProArr)
+      
         addEmployeePro();
     })
 }
@@ -172,7 +172,7 @@ function addEngPro(){
         const devTeamMem = new Engineer( engName, engId, engEmail, github);
 
         devProArr.push( devTeamMem);
-        console.log(devProArr)
+        
         addEmployeePro();
     })
 }
@@ -248,7 +248,7 @@ function addMngPro(){
         const devTeamMem = new Manager( mngName, mngId, mngEmail, mngPhone);
 
         devProArr.push( devTeamMem);
-        console.log(devProArr)
+       
         addEmployeePro();
     })
 }
